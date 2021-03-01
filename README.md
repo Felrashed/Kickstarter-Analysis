@@ -95,9 +95,12 @@ Furthermore, budgeting and planning based on outcomes relative to funding goals 
 ### **Limitations of this dataset:**
 
 Some limitations in our data set include:
-    **1.** The data is incomplete for our purpose. This dataset only represents kickstarter campaigns and is limited to a particular timeframe. To trully represent our conclusions better, we would want to factor in any funding campaigns launched **outside** of kickstarter. 
-    **2.** The funding goals span a number of different countries and currencies. To accurately reflect the funding goal data, we would need to normalize the data into a single currency, for example USD, before we could truly understand the relationship between funding goals vs. outcomes.
-    **3.** The date launched vs. outcomes analysis was certainly informative, but to accurately portray a relationship, it would be worthwile to note the duration of the campaign by factoring campaign end dates. Evaluating and comparing launch dates relative to number of days raising funds would likely yield more robust insights into when to launch a funding campaign as well as the optimal length of a campaign.   
+
+**1.** The data is incomplete for our purpose. This dataset only represents kickstarter campaigns and is limited to a particular timeframe. To trully represent our conclusions better, we would want to factor in any funding campaigns launched **outside** of kickstarter. 
+
+**2.** The funding goals span a number of different countries and currencies. To accurately reflect the funding goal data, we would need to normalize the data into a single currency, for example USD, before we could truly understand the relationship between funding goals vs. outcomes.
+
+**3.** The date launched vs. outcomes analysis was certainly informative, but to accurately portray a relationship, it would be worthwile to note the duration of the campaign by factoring campaign end dates. Evaluating and comparing launch dates relative to number of days raising funds would likely yield more robust insights into when to launch a funding campaign as well as the optimal length of a campaign.   
 
 ### **What are some other possible tables and/or graphs that we could create?**
 
