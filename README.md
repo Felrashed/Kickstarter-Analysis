@@ -1,6 +1,6 @@
 # **Kickstarting with Excel: Analyzing Kickstarter Campaigns For Insights**
 
-![Kickstarter_Banner](path/to/Kickstarter_Banner.gif)
+![](https://github.com/Felrashed/Kickstarter-Analysis/blob/main/Resources/Kickstarter_Banner.gif)
 
 ## **Overview of Project**
 
@@ -17,35 +17,35 @@ The analysis was commissioned by Louise, a playwright, with the aim of deriving 
 
 ## **Analysis and Challenges**
 
-![workflow_analysis](path/to/workflow_analysis.png)
+![](https://github.com/Felrashed/Kickstarter-Analysis/blob/main/Resources/workflow_analysis.png)
 
 To achieve the desired outcomes I performed an analysis on a large kickstarter dataset including campaigns across multiple nations, categories, and with various funding goals. In order to accomplish this, the data first had to be cleaned and organized. This included steps to format Unix timecode into readable date formats, formatting campaign data to exclude blank entries, and applying filters alongside conditional formatting to present the data in a visually appealing and easy to read format. Additionally, I used the existing data to extract further insights, such as separating category and subcategory for a more detailed inspection of campaign performance using the "Text to Columns Wizard."
 
 Text To Column Function Use Example:
 
-![Text_to_Column](path/to/Text_to_Column.png)
+![](https://github.com/Felrashed/Kickstarter-Analysis/blob/main/Resources/Text_to_Column.PNG)
 
 Conditional Formatting Use Example:
 
-![Conditional_Formatting](path/to/Conditional_Formatting.png)
+![](https://github.com/Felrashed/Kickstarter-Analysis/blob/main/Resources/Conditional_Formatting.PNG)
 
 Formula For Conversion From Epoch To Standard Date Format:
 
-![Epoch_to_Standard](path/to/Epoch_to_Standard.png)
+![](https://github.com/Felrashed/Kickstarter-Analysis/blob/main/Resources/Epoch_to_Standard.png)
 
 Once the data was cleaned, organized, and filtered we were able to begin our analysis. The analytical process included creating descriptive statistics to find outliers and relationships in the data, pivot tables to easily visualize and compare data, and charts to help visualize trends and insights. 
 
 Descriptive statistics used, accompanied by formulas:
 
-![Descriptive_Stats](path/to/Descriptive_Stats.png)
+![](https://github.com/Felrashed/Kickstarter-Analysis/blob/main/Resources/Descriptive_Stats.png)
 
 Chart displaying outcomes of campaigns by parent category:
 
-![Parent_Category_Outcomes](path/to/Parent_Category_Outcomes.png)
+![](https://github.com/Felrashed/Kickstarter-Analysis/blob/main/Resources/Parent_Category_Outcomes.png)
 
 Unfiltered Pivot Table Example:
 
-![Pivot_Parent_Outcomes](path/to/Pivot_Parent_Outcomes.png)
+![](https://github.com/Felrashed/Kickstarter-Analysis/blob/main/Resources/Pivot_Parent_Outcomes.PNG)
 
 Two primary challenges in the data set were parsing out the category and subcategory data alongside the Unix timestamp conversion. While doing this by hand would have been a daunting task, I was able to use google to help me understand the Text to Column wizard to easily separate the subcategory from category in order to achieve more robust analysis. Similarly, I used this [website](https://www.epochconverter.com/) to confirm the presence of Unix Timestamp data and then applied the formulaic conversion displayed above afte gaining a better understanind of Unix Timestamp conversion from this [resource](https://websiteseochecker.com/blog/what-is-timestamp/) 
 
@@ -55,16 +55,16 @@ A review of the outcomes based on launch date reveals significant comparative da
 
 Similarly, successful campaign performance begins to decline consistently as we exit the summer months and begin to approach the winter season, with the worst performing months being October through March. Based on these insights, we can conclude that the best time to launch a campaign is toward the very end of spring and toward the beginining of the Summer. Assuming historical trends hold, Louise's funding campaign will have the highest likelihood of success being launched during May and June. Furthermore, Louise should avoid launching any campaigns between the months of September and December. A line graph visualizing this trend data has been included for reference below:
 
-![Theater_Outcomes_vs_Launch](path/to/Theater_Outcomes_vs_Launch.png)
+![](https://github.com/Felrashed/Kickstarter-Analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 
 A review of the goals data required that I formulate a table to represent the ranges of funding goals across all campaigns and then identify their associated success, failure, and cancellation rate. For this dataset, there were no cancelled projects, however we were able to gain considerable insight into the relationship between outcomes and the funding goals associated with the projects. This relationship is visualized alongside the tabular data used to create the chart for reference below:
 
-[Outcomes_vs_Goals](path/to/Outcomes_vs_Goals.png)
+[](https://github.com/Felrashed/Kickstarter-Analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 
 
-[Goals_Table](path/to/Goals_Table.png)
+[](https://github.com/Felrashed/Kickstarter-Analysis/blob/main/Resources/Goals_Table.PNG)
 
 
 By visualizing the data in tabular and chart form, I was able to offer the client, Louise, a direct view of the relationships between goals, outcome, and their rate of outcome. Doing so revealed that the data follows an irregular trend relationship between failed and successful outcomes as we progressed through various funding goal ranges. The most important insights were:
@@ -82,7 +82,7 @@ Furthermore, budgeting and planning based on outcomes relative to funding goals 
 
 ### **Conclusions Based on Launch Date:**
 
-![Theater_Outcomes_vs_Launch](path/to/Theater_Outcomes_vs_Launch.png)
+![](https://github.com/Felrashed/Kickstarter-Analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
 **1.** The months of May and June are the most optimal time to launch a theater funding campaign on Kickstarter. Outside of these months, the success rate dwindles rapidly leading to the worst performing month, December. As previously stated, the association of the Summer months with recreation and entertainment is likely a contributing factor toward the success of theater campaigns during the same period. 
 
